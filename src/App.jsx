@@ -119,7 +119,7 @@ const App = () => {
     return ( 
         <>
             {/* TIMER */}
-            <div className='d-flex justify-content-around' style={{padding:"10px 2rem", width: "800px"}}>
+            <div className='cardContainer d-flex justify-content-around' style={{padding:"10px 2rem", width: "800px"}}>
                 <Card>
                     <Card.Body style={{width: "14rem"}}>
                         <Card.Title>
@@ -140,7 +140,7 @@ const App = () => {
             </div>
 
 
-            <div className='d-flex justify-content-around' style={{padding:"10px 2rem", width: "800px"}}>
+            <div className='cardContainer d-flex justify-content-around' style={{padding:"10px 2rem", width: "800px"}}>
 
                 {/* TEAM A */}
                 <Card>

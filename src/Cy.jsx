@@ -6,7 +6,7 @@ const Cy = () => {
     }
 
     return (
-        <p className="subtitle" onClick={resetCount}>Author: Cy</p>
+        <p className="author subtitle" onClick={resetCount}>Author: Cy</p>
     );
 }
  
