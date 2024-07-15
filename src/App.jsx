@@ -9,6 +9,7 @@ const App = () => {
 
     const incrementCountA = () => {
         setCount(count + 1);
+        stopTimer();
     }
     const decrementCountA = () => {
         if (count == 0) {
@@ -19,12 +20,15 @@ const App = () => {
     }
     const twoPointsA = () => {
         setCount(count + 2);
+        stopTimer();
     }
     const threePointsA = () => {
         setCount(count + 3);
+        stopTimer();
     }
     const resetScoreA = () => {
         setCount(0);
+        stopTimer();
     }
 
 
@@ -53,6 +57,7 @@ const App = () => {
 
     const incrementCountB = () => {
         setCount1(count1 + 1);
+        stopTimer();
     }
     const decrementCountB = () => {
         if (count1 == 0) {
@@ -63,12 +68,15 @@ const App = () => {
     }
     const twoPointsB = () => {
         setCount1(count1 + 2);
+        stopTimer();
     }
     const threePointsB = () => {
         setCount1(count1 + 3);
+        stopTimer();
     }
     const resetScoreB = () => {
         setCount1(0);
+        stopTimer();
     }
 
 
