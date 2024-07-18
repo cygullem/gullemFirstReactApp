@@ -119,7 +119,7 @@ const App = () => {
     return ( 
         <>
             {/* TIMER */}
-            <div className='cardContainer d-flex justify-content-around' style={{padding:"10px 2rem", width: "800px"}}>
+            <div className='cardContainer flex justify-around' style={{padding:"10px 2rem", width: "800px"}}>
                 <Card>
                     <Card.Body style={{width: "14rem"}}>
                         <Card.Title>
@@ -130,7 +130,7 @@ const App = () => {
                                 {formattedTimer}
                             </h1>
 
-                            <div className='BtnCont d-flex justify-content-around'>
+                            <div className='BtnCont flex justify-around'>
                                 <Button variant='danger' onClick={stopTimer}><i class="fa-solid fa-pause"></i></Button>
                                 <Button variant='primary' onClick={startTimer}><i class="fa-solid fa-play"></i></Button>
                             </div>
@@ -140,7 +140,7 @@ const App = () => {
             </div>
 
 
-            <div className='cardContainer d-flex justify-content-around' style={{padding:"10px 2rem", width: "800px"}}>
+            <div className='cardContainer flex justify-around' style={{padding:"10px 2rem", width: "800px"}}>
 
                 {/* TEAM A */}
                 <Card>
@@ -151,13 +151,13 @@ const App = () => {
                                 {count}
                             </h1>
                             
-                            <div className='BtnCont d-flex justify-content-around'>
+                            <div className='BtnCont flex justify-around'>
                                 <Button variant='danger' onClick={decrementCountA}>-</Button>
                                 <Button variant='primary' onClick={incrementCountA}>+1</Button>
                                 <Button variant='secondary' onClick={twoPointsA}>+2</Button>
                                 <Button variant='secondary' onClick={threePointsA}>+3</Button>
                             </div>
-                            <div className='d-flex justify-content-around mt-2'>
+                            <div className='d-flex justify-around mt-2'>
                                 <Button variant='danger' onClick={resetScoreA}>RESET</Button>
                             </div>
                         </Card.Title>
@@ -173,7 +173,7 @@ const App = () => {
                                 {count2}
                             </h1>
                             
-                            <div className='BtnCont d-flex justify-content-around'>
+                            <div className='BtnCont flex justify-around'>
                                 <Button variant='danger' onClick={decrementCountC}><i class="fa-solid fa-minus"></i></Button>
                                 <Button variant='primary' onClick={incrementCountC}><i class="fa-solid fa-plus"></i></Button>
                             </div>
